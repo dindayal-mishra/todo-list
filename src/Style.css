@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(18, 1, 17);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.body{
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(45deg,green,white,orange);
+    margin-left: 530px;
+    margin-top: 130px;
+    border-radius: 5px;
+}
+.heading{
+    height: 50px;
+    width: 300px;
+    color: white;
+    font-size: 45px;
+    /* background-color: rgb(169, 226, 244); */
+    /* margin-left: 600px; */
+    /* margin-top: 5px; */
+}
+.body>h1{
+    width: 100%;
+    background-color: rgb(150, 249, 117);
+   color: rgb(7, 153, 7);
+}
+.body>h2{
+    width: 100%;
+    background-color: rgb(188, 10, 10);
+   color: rgb(250, 180, 171);
+}
+.body>input{
+    height: 40px;
+    width: 300px;
+    background: linear-gradient(45deg,white,orange);
+    color: black;
+    margin-left: 60px;
+    margin-top:40px;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.body>button{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(3, 58, 87);
+    margin-left: 55px;
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+}
+.body>button:hover{
+    background-color: rgb(2, 223, 2);
+}
+.listitems{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    background: linear-gradient(45deg,green,white,orange);
+    
+}
+.listitems>button{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(3, 58, 87);
+    /* margin-left: 50px; */
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+}
+.listitems>button:hover{
+    background-color: red;
+}
+.listitems>h3{
+    height: 40px;
+    width: 300px;
+    background: linear-gradient(45deg,rgb(39, 186, 39),white,orange);
+    color: black;
+    border-radius: 10px;
+    padding-left: 70px;
+    /* margin-left: 90px; */
+}
